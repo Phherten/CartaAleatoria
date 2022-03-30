@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #015d50;
+}
+
+.carta {
+  border: solid 1px black;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+}
+.cartaReves {
+  border: solid 1px black;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  background-image: url("./assets/img/carta.jpg");
+  background-size: 110% 110%;
+  background-position: 50%;
+}
+
+.numero {
+  font-size: 120px;
+  text-align: center;
+}
+.normal {
+  font-size: 40px;
+  margin-left: 10px;
+}
+.invertido {
+  font-size: 40px;
+  margin-right: 10px;
+  transform: rotate(180deg);
+}
+.rojo {
+  color: red;
+}
+.negro {
+  color: black;
+}
